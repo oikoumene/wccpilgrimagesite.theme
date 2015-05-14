@@ -62,8 +62,8 @@
         <script src="++theme++wccpilgrimagesite.theme/js/libs/jquery.cookie.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/pace.min.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/fancybox/jquery.fancybox.pack.js"></script>
-        <script src="++theme++wccpilgrimagesite.theme/js/app.js"></script>
         <xsl:copy-of css:select="#portal-footer-wrapper > div > script" />
+        <script src="++theme++wccpilgrimagesite.theme/js/app.js"></script>
     </after>
             
 </rules>
