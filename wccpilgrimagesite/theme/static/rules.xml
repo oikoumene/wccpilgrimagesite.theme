@@ -49,8 +49,8 @@
         css:content-children="#portal-siteactionst"/> -->
     
     <!--landing template-->
-    <rules css:if-content=".template-document_view.section-front-page">
-        <theme href="index.html"/>
+    <rules css:if-content=".template-startup_view">
+        <theme href="landing.html"/>
     </rules>
     
     <!--inner page template-->
