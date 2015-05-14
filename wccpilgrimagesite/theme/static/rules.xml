@@ -27,7 +27,8 @@
 
     <replace css:theme-children=".no-bullet.side-nav-list"
         css:content-children="#portal-globalnav"/>
-
+    
+    <!--main content-->
     <replace css:theme-children=".inner-wrap">
         <div class="white-bg">
             <div class="row">
@@ -37,6 +38,9 @@
             </div>
         </div>
     </replace>
+    
+    <!--footer content-->
+    <replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />
 
     <!--<replace css:theme-children="#portal-colophon"
         css:content-children="#portal-colophon"/>
