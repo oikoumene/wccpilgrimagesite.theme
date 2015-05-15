@@ -13892,3 +13892,9 @@ ul.resource-list-type .doc-holder {
 iframe, .pluginLikeboxStream {
   width: 100% !important;
 }
+
+/*plone classes*/
+/* line 1520, ../scss/app.scss */
+#content {
+  background-color: #ffffff;
+}
