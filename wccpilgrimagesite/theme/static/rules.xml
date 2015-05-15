@@ -29,6 +29,10 @@
 
     <replace css:theme-children=".no-bullet.side-nav-list"
         css:content-children="#portal-globalnav"/>
+    <after css:theme=".fixed-links.no-bullet" css:if-content=".template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp">
+        <div class="nav-notice nn-hidden"><div class="notice-inner">Click here to navigate</div></div>
+        <div class="socmed-notice nn-hidden"><div class="notice-inner">Share</div></div>
+    </after>
     
     <!--main content-->
     <replace css:theme-children=".inner-wrap" css:content-children="#portal-column-content" />
@@ -51,11 +55,13 @@
             };
         </script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/foundation.min.js"></script>
+        <script src="++theme++wccpilgrimagesite.theme/slick/slick.min.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/jquery.cookie.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/pace.min.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/fancybox/jquery.fancybox.pack.js"></script>
         <xsl:copy-of css:select="#portal-footer-wrapper > div > script" />
         <script src="++theme++wccpilgrimagesite.theme/js/app.js"></script>
+        <link rel="stylesheet" href="++theme++wccpilgrimagesite.theme/slick/slick.css" />
     </after>
             
 </rules>
