@@ -13900,11 +13900,21 @@ iframe, .pluginLikeboxStream {
 }
 
 /*footer*/
-/* line 1526, ../scss/app.scss */
+/* line 1525, ../scss/app.scss */
+#portlets-footer .portlet {
+  text-align: left;
+  background: none transparent;
+}
+/* line 1528, ../scss/app.scss */
+#portlets-footer .portlet .portletHeader {
+  color: #fff;
+}
+
+/* line 1535, ../scss/app.scss */
 #portal-footer .medium-text-left p.copyright {
   margin-bottom: 0;
 }
-/* line 1530, ../scss/app.scss */
+/* line 1539, ../scss/app.scss */
 #portal-footer .medium-text-left ul li {
   display: inline;
 }
