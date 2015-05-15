@@ -13898,3 +13898,13 @@ iframe, .pluginLikeboxStream {
 #content {
   background-color: #ffffff;
 }
+
+/*footer*/
+/* line 1526, ../scss/app.scss */
+#portal-footer .medium-text-left p.copyright {
+  margin-bottom: 0;
+}
+/* line 1530, ../scss/app.scss */
+#portal-footer .medium-text-left ul li {
+  display: inline;
+}

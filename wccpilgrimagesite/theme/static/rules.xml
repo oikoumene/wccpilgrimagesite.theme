@@ -26,6 +26,9 @@
     <drop css:content="#viewlet-below-content-title" />
     <drop css:content="#viewlet-above-content-body" />
     <drop css:content="#viewlet-below-content-body" />
+    <drop css:content="#portal-colophon" />
+    <drop css:content="#portal-siteactions" />
+    
 
     <replace css:theme-children=".no-bullet.side-nav-list"
         css:content-children="#portal-globalnav"/>
