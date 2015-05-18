@@ -31,7 +31,7 @@
     
 
     <replace css:theme-children=".no-bullet.side-nav-list"
-        css:content-children="#portal-globalnav"/>
+        css:content-children=".no-bullet.side-nav-list"/>
     <after css:theme=".fixed-links.no-bullet" css:if-content=".template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp">
         <div class="nav-notice nn-hidden"><div class="notice-inner">Click here to navigate</div></div>
         <div class="socmed-notice nn-hidden"><div class="notice-inner">Share</div></div>
