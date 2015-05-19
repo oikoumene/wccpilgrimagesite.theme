@@ -10975,37 +10975,38 @@ dl.enableFormTabbing dd {
 
 /* line 102, ../scss/_forms.scss */
 .field input[type="text"][name$=".title"],
+.field input#form-widgets-email,
 input#title {
   width: 100%;
 }
 
-/* line 106, ../scss/_forms.scss */
+/* line 107, ../scss/_forms.scss */
 .field.error input[type="text"][name$=".title"],
 .error input#title {
   width: 99%;
 }
 
-/* line 111, ../scss/_forms.scss */
+/* line 112, ../scss/_forms.scss */
 .fieldRequired {
   background: url(required.png) center left no-repeat;
   padding: 0 0 0 1em;
   color: White;
 }
 
-/* line 116, ../scss/_forms.scss */
+/* line 117, ../scss/_forms.scss */
 .fieldUploadFile {
   text-align: right;
   margin-right: 0.75em;
   display: none;
 }
 
-/* line 121, ../scss/_forms.scss */
+/* line 122, ../scss/_forms.scss */
 .fieldTextFormat {
   text-align: right;
   margin-right: 0.75em;
 }
 
-/* line 125, ../scss/_forms.scss */
+/* line 126, ../scss/_forms.scss */
 .formHelp {
   color: #555;
   margin: 0 0 0.2em 0;
@@ -11013,7 +11014,7 @@ input#title {
   font-weight: normal;
 }
 
-/* line 131, ../scss/_forms.scss */
+/* line 132, ../scss/_forms.scss */
 div.field.error {
   background-color: #fdc;
   border: 1px solid red;
@@ -11021,12 +11022,12 @@ div.field.error {
   margin: 1em 0;
 }
 
-/* line 137, ../scss/_forms.scss */
+/* line 138, ../scss/_forms.scss */
 .error .fieldRequired {
   color: #d00;
 }
 
-/* line 140, ../scss/_forms.scss */
+/* line 141, ../scss/_forms.scss */
 div.error.warning {
   background-color: transparent;
   border: none;
@@ -11034,23 +11035,23 @@ div.error.warning {
   padding: 0;
 }
 
-/* line 147, ../scss/_forms.scss */
+/* line 148, ../scss/_forms.scss */
 div.error.warning input {
   border: 2px solid red;
 }
 
-/* line 151, ../scss/_forms.scss */
+/* line 152, ../scss/_forms.scss */
 input.inputLabelActive {
   color: #76797c;
 }
 
-/* line 154, ../scss/_forms.scss */
+/* line 155, ../scss/_forms.scss */
 textarea#form.description {
   height: 6em;
   width: 99%;
 }
 
-/* line 158, ../scss/_forms.scss */
+/* line 159, ../scss/_forms.scss */
 table.listing tbody tr.odd.selected td,
 table.listing tbody tr.odd.dragging td,
 tr.dragging,
@@ -11058,19 +11059,19 @@ tr.selected {
   background-color: #ffa;
 }
 
-/* line 164, ../scss/_forms.scss */
+/* line 165, ../scss/_forms.scss */
 table.listing tbody tr.odd.error td,
 tr.error {
   background-color: #fdc;
 }
 
-/* line 168, ../scss/_forms.scss */
+/* line 169, ../scss/_forms.scss */
 .multi-widget-field {
   padding-left: 0.5em;
   border-left: 1.5em solid #DDD;
 }
 
-/* line 173, ../scss/_forms.scss */
+/* line 174, ../scss/_forms.scss */
 .multi-widget-checkbox {
   margin-left: -2em;
   margin-right: 0.5em;
@@ -11079,26 +11080,26 @@ tr.error {
 }
 
 /* @group Login form */
-/* line 182, ../scss/_forms.scss */
+/* line 183, ../scss/_forms.scss */
 body.template-logged_out #content,
 body.template-login_form #content,
 .pb-ajax #login-form {
   text-align: center;
 }
 
-/* line 188, ../scss/_forms.scss */
+/* line 189, ../scss/_forms.scss */
 #fieldset-openid-login input, #login-form input {
   font-size: 150%;
 }
 
-/* line 193, ../scss/_forms.scss */
+/* line 194, ../scss/_forms.scss */
 body.template-register #content input,
 body.template-new-user #content input {
   font-size: 150%;
   width: inherit;
 }
 
-/* line 200, ../scss/_forms.scss */
+/* line 201, ../scss/_forms.scss */
 #fieldset-openid-login label, #login-form label {
   margin-right: 0.5em;
   padding-top: 0.2em;
@@ -11107,7 +11108,7 @@ body.template-new-user #content input {
   display: inline-block;
 }
 
-/* line 208, ../scss/_forms.scss */
+/* line 209, ../scss/_forms.scss */
 #fieldset-openid-login .formControls input, #login-form .formControls input {
   margin-left: 0.25em;
 }
