@@ -53,19 +53,19 @@
     <theme href="content.html"/>
         
     <after css:theme-children="body">
+        
         <script>
             window.paceOptions = {
                 target: '.loader'
             };
         </script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/foundation.min.js"></script>
-        <script src="++theme++wccpilgrimagesite.theme/slick/slick.min.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/jquery.cookie.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/js/libs/pace.min.js"></script>
         <script src="++theme++wccpilgrimagesite.theme/fancybox/jquery.fancybox.pack.js"></script>
         <xsl:copy-of css:select="#portal-footer-wrapper > div > script" />
         <script src="++theme++wccpilgrimagesite.theme/js/app.js"></script>
-        <link rel="stylesheet" href="++theme++wccpilgrimagesite.theme/slick/slick.css" />
+        <link rel="stylesheet" href="++theme++wccpilgrimagesite.theme/fancybox/jquery.fancybox.css" />
     </after>
             
 </rules>
