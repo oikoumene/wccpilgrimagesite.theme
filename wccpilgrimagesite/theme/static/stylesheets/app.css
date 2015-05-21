@@ -13919,3 +13919,9 @@ iframe, .pluginLikeboxStream {
 #portal-footer .medium-text-left ul li {
   display: inline;
 }
+
+/*instagram*/
+/* line 1547, ../scss/app.scss */
+.instagram {
+  display: inline-block;
+}
