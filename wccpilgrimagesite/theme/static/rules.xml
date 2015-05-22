@@ -84,6 +84,11 @@
     </after>
     
     <!--main content-->
+    <replace css:theme-children="#content" css:if-not-content=".template-startup_view, .template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp, .template-view.portaltype-wccpilgrimagesite-app-pilgrimagesteps, .template-view.portaltype-wccpilgrimagesite-app-resources, .template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
+        <div class="row">
+            <xsl:copy-of css:select="#content > *" />
+        </div>
+    </replace>
     <replace css:theme-children="#content" css:content-children="#content" />
     
     <!--footer content-->
