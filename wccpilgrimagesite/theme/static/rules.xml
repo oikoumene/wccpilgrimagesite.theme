@@ -40,6 +40,12 @@
         <replace css:theme-children=".see-more">Plus</replace>
         <replace css:theme-children=".add-comment">Ajouter un commentaire</replace>
         <replace css:theme-children=".back-to-top">Haut de la page</replace>
+        <replace css:theme-children=".latest-fb-status">Statut Facebook le plus récent</replace>
+        <replace css:theme-children=".latest-tweets">Tweets les plus récents</replace>
+        <replace css:theme-children=".latest-insta-post">Récemment sur Instagram</replace>
+        <replace css:theme-children=".like-us-on-fb">Aimez-nous sur Facebook</replace>
+        <replace css:theme-children=".follow-us-on-tw">Suivez-nous sur Twitter</replace>
+        <replace css:theme-children=".follow-us-on-insta">Suivez-nous sur Instagram</replace>
     </rules>
     
     <!--German-->
@@ -48,6 +54,12 @@
         <replace css:theme-children=".see-more">Mehr anzeigen</replace>
         <replace css:theme-children=".add-comment">Kommentar hinzufügen</replace>
         <replace css:theme-children=".back-to-top">Zum Seitenanfang</replace>
+        <replace css:theme-children=".latest-fb-status">Neuestes Facebook-Update</replace>
+        <replace css:theme-children=".latest-tweets">Neuste Tweets</replace>
+        <replace css:theme-children=".latest-insta-post">Neuste Instagram-Posts</replace>
+        <replace css:theme-children=".like-us-on-fb">Folgen Sie uns auf Facebook</replace>
+        <replace css:theme-children=".follow-us-on-tw">Folgen Sie uns auf Twitter</replace>
+        <replace css:theme-children=".follow-us-on-insta">Folgen Sie uns auf Instagram</replace>
     </rules>
     
     <!--Spanish-->
@@ -56,6 +68,12 @@
         <replace css:theme-children=".see-more">Ver todo</replace>
         <replace css:theme-children=".add-comment">Añadir un comentario</replace>
         <replace css:theme-children=".back-to-top">Volver arriba</replace>
+        <replace css:theme-children=".latest-fb-status">Últimas actualizaciones de Facebook</replace>
+        <replace css:theme-children=".latest-tweets">Últimos mensajes en Twitter</replace>
+        <replace css:theme-children=".latest-insta-post">Últimas publicaciones en Instagram</replace>
+        <replace css:theme-children=".like-us-on-fb">Síguenos en Facebook</replace>
+        <replace css:theme-children=".follow-us-on-tw">Síguenos en Twitter</replace>
+        <replace css:theme-children=".follow-us-on-insta">Síguenos en Instagram</replace>
     </rules>
     
     <after css:theme=".fixed-links.no-bullet" css:if-content=".template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp">
