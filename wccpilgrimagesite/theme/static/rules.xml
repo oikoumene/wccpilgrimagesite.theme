@@ -29,6 +29,8 @@
     <drop css:content="#portal-colophon" />
     <drop css:content="#portal-siteactions" />
     <drop css:content=".documentDescription.description" />
+    <drop css:content="#portal-footer" />
+    <drop css:content="#portlets-footer > div:last-child" />
     
         <!--navigation-->
     <replace css:theme-children=".no-bullet.side-nav-list"
@@ -86,6 +88,7 @@
     
     <!--footer content-->
     <replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />
+    <after css:theme-children=".page-footer" css:content=".footerportlet" />
     
     <!--landing template-->
     <rules css:if-content=".template-startup_view">
