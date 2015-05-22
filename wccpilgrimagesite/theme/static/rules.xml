@@ -28,7 +28,7 @@
     <drop css:content="#viewlet-below-content-body" />
     <drop css:content="#portal-colophon" />
     <drop css:content="#portal-siteactions" />
-    <drop css:content=".documentDescription.description" />
+    <drop css:content=".documentDescription" />
     <drop css:content="#portal-footer" />
     <drop css:content="#portlets-footer > div:last-child" />
     
@@ -40,7 +40,7 @@
     <rules if-content="/html[@lang='fr']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/fr-pjp-text-logo.png" alt="pèlerinage de justice et de paix" /></replace>
         <replace css:content-children=".see-more">Plus</replace>
-        <replace css:content-children=".add-comment">Ajouter un commentaire</replace>
+        <replace css:content-children=".add-a-comment">Ajouter un commentaire</replace>
         <replace css:content-children=".back-to-top">Haut de la page</replace>
         <replace css:content-children=".latest-fb-status">Statut Facebook le plus récent</replace>
         <replace css:content-children=".latest-tweets">Tweets les plus récents</replace>
@@ -54,7 +54,7 @@
     <rules if-content="/html[@lang='de']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/de-pjp-text-logo.png" alt="Pilgerweg der Gerechtigkeit und des Friedens" /></replace>
         <replace css:content-children=".see-more">Mehr anzeigen</replace>
-        <replace css:content-children=".add-comment">Kommentar hinzufügen</replace>
+        <replace css:content-children=".add-a-comment">Kommentar hinzufügen</replace>
         <replace css:content-children=".back-to-top">Zum Seitenanfang</replace>
         <replace css:content-children=".latest-fb-status">Neuestes Facebook-Update</replace>
         <replace css:content-children=".latest-tweets">Neuste Tweets</replace>
@@ -68,7 +68,7 @@
     <rules if-content="/html[@lang='es']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/es-pjp-text-logo.png" alt="peregrinación de justicia y paz" /></replace>
         <replace css:content-children=".see-more">Ver todo</replace>
-        <replace css:content-children=".add-comment">Añadir un comentario</replace>
+        <replace css:content-children=".add-a-comment">Añadir un comentario</replace>
         <replace css:content-children=".back-to-top">Volver arriba</replace>
         <replace css:content-children=".latest-fb-status">Últimas actualizaciones de Facebook</replace>
         <replace css:content-children=".latest-tweets">Últimos mensajes en Twitter</replace>
@@ -84,7 +84,7 @@
     </after>
     
     <!--main content-->
-    <replace css:theme-children=".inner-wrap" css:content-children="#portal-column-content" />
+    <replace css:theme-children="#content" css:content-children="#content" />
     
     <!--footer content-->
     <replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />
