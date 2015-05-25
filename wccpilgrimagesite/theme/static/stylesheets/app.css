@@ -13925,3 +13925,9 @@ iframe, .pluginLikeboxStream {
 .instagram {
   display: inline-block;
 }
+
+/*logo*/
+/* line 1555, ../scss/app.scss */
+html:lang(de) .options-header .logo a {
+  background-image: url(../images/de-pjp-logo.png);
+}
