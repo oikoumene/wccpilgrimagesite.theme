@@ -400,10 +400,14 @@ jQuery(window).load(function(){
 		e.preventDefault();
 		if(cover.hasClass('open-cover')) {
 			cover.removeClass('open-cover');
-			coverButton.text("Show More");
+			//coverButton.text("Show More");
+			$('span#show-less').hide();
+			$('span#show-more').show();	
 		} else {
 			cover.addClass('open-cover');
-			coverButton.text("Show Less");
+			//coverButton.text("Show Less");
+			$('span#show-more').hide();
+			$('span#show-less').show();	
 		}
 	});
 
