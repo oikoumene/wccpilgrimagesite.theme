@@ -13931,3 +13931,13 @@ iframe, .pluginLikeboxStream {
 html:lang(de) .options-header .logo a {
   background-image: url(../images/de-pjp-logo.png);
 }
+
+/* line 1564, ../scss/app.scss */
+html:lang(es) .options-header .logo a {
+  background-image: url(../images/es-pjp-logo.png);
+}
+
+/* line 1573, ../scss/app.scss */
+html:lang(fr) .options-header .logo a {
+  background-image: url(../images/fr-pjp-logo.png);
+}
