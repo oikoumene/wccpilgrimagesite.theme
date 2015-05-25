@@ -34,6 +34,8 @@
     
         <!--navigation-->
     <replace css:theme-children=".no-bullet.side-nav-list"
+        css:content-children="#portal-globalnav" css:if-not-content=".no-bullet.side-nav-list" />
+    <replace css:theme-children=".no-bullet.side-nav-list"
         css:content-children=".no-bullet.side-nav-list"/>
     
     <!--Francis-->
@@ -85,6 +87,15 @@
     
     <!--main content-->
     <replace css:theme-children="#content" css:if-not-content=".template-startup_view, .template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp, .template-view.portaltype-wccpilgrimagesite-app-pilgrimagesteps, .template-view.portaltype-wccpilgrimagesite-app-resources, .template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
+        <!--header-->
+        <header class="options-header white-bg">
+            <div class="row">
+                <div class="columns small-12 text-center">
+                    <div class="logo"><a href=""><span class="access">Pilgrimage of Peace and Justice</span></a></div>
+                </div>
+            </div>
+        </header>
+        
         <div class="row">
             <xsl:copy-of css:select="#content > *" />
         </div>
