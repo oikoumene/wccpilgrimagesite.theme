@@ -11849,8 +11849,13 @@ div.row {
   position: relative;
 }
 
+/* line 8, ../scss/_plone-enhancement.scss */
+.overlay .row {
+  min-width: 100%;
+}
+
 /*class COLUMN*/
-/* line 9, ../scss/_plone-enhancement.scss */
+/* line 12, ../scss/_plone-enhancement.scss */
 th.column {
   padding: 0;
   float: none;
@@ -11859,7 +11864,7 @@ th.column {
 }
 
 /*Table*/
-/* line 16, ../scss/_plone-enhancement.scss */
+/* line 19, ../scss/_plone-enhancement.scss */
 table.listing,
 table.sequencewidget,
 table.ordered-selection-field {
@@ -11867,17 +11872,17 @@ table.ordered-selection-field {
 }
 
 /*table class listing*/
-/* line 23, ../scss/_plone-enhancement.scss */
+/* line 26, ../scss/_plone-enhancement.scss */
 table.listing th:last-child {
   float: none !important;
 }
-/* line 26, ../scss/_plone-enhancement.scss */
+/* line 29, ../scss/_plone-enhancement.scss */
 table.listing tbody {
   word-break: break-all;
 }
 
 /*class LABEL*/
-/* line 31, ../scss/_plone-enhancement.scss */
+/* line 34, ../scss/_plone-enhancement.scss */
 .template-atct_image_transform #content-core > div.label,
 .formQuestion.label {
   background: none transparent;
@@ -11891,13 +11896,13 @@ table.listing tbody {
   font-size: inherit;
 }
 
-/* line 43, ../scss/_plone-enhancement.scss */
+/* line 46, ../scss/_plone-enhancement.scss */
 .formQuestion,
 #content input[type="checkbox"] + label, input[type="radio"] + label {
   display: inline;
 }
 
-/* line 47, ../scss/_plone-enhancement.scss */
+/* line 50, ../scss/_plone-enhancement.scss */
 label .label {
   background: none;
   font-size: inherit;
@@ -11906,7 +11911,7 @@ label .label {
 }
 
 /*start fix for foundation button*/
-/* line 54, ../scss/_plone-enhancement.scss */
+/* line 57, ../scss/_plone-enhancement.scss */
 #content ul.button-group {
   list-style-type: none;
   margin-left: 0;
@@ -11914,7 +11919,7 @@ label .label {
 
 /*end fix for foundation button*/
 /*start configlets*/
-/* line 61, ../scss/_plone-enhancement.scss */
+/* line 64, ../scss/_plone-enhancement.scss */
 ul.configlets {
   margin: 1em 0;
   list-style-image: none;
@@ -11922,12 +11927,12 @@ ul.configlets {
 }
 
 /*start - field adjustment*/
-/* line 70, ../scss/_plone-enhancement.scss */
+/* line 73, ../scss/_plone-enhancement.scss */
 .field .widget .label {
   text-align: left;
   background: none;
 }
-/* line 76, ../scss/_plone-enhancement.scss */
+/* line 79, ../scss/_plone-enhancement.scss */
 .field table.ordered-selection-field button[name='upButton'],
 .field table.ordered-selection-field button[name='downButton'],
 .field table.ordered-selection-field button[name='from2toButton'],
@@ -11941,7 +11946,7 @@ ul.configlets {
 
 /*end field adjustment*/
 /*input type*/
-/* line 91, ../scss/_plone-enhancement.scss */
+/* line 94, ../scss/_plone-enhancement.scss */
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -11983,13 +11988,13 @@ input[type="submit"]:focus {
   color: #FFFFFF;
 }
 
-/* line 96, ../scss/_plone-enhancement.scss */
+/* line 99, ../scss/_plone-enhancement.scss */
 #content input[type="submit"],
 #content input[type="reset"] {
   margin-right: 3px;
 }
 
-/* line 100, ../scss/_plone-enhancement.scss */
+/* line 103, ../scss/_plone-enhancement.scss */
 #content input[type="submit"]:last-child,
 #content input[type="reset"]:last-child {
   margin-right: 0;
@@ -11997,15 +12002,15 @@ input[type="submit"]:focus {
 
 /*end - field adjustment*/
 /*fix for calendar/select date  */
-/* line 107, ../scss/_plone-enhancement.scss */
+/* line 110, ../scss/_plone-enhancement.scss */
 .calendar {
   z-index: 99;
 }
-/* line 109, ../scss/_plone-enhancement.scss */
+/* line 112, ../scss/_plone-enhancement.scss */
 .calendar table {
   margin-bottom: 0;
 }
-/* line 112, ../scss/_plone-enhancement.scss */
+/* line 115, ../scss/_plone-enhancement.scss */
 .calendar .button {
   color: #000;
   margin-bottom: 0;
@@ -12013,7 +12018,7 @@ input[type="submit"]:focus {
 }
 
 /*start criteria*/
-/* line 121, ../scss/_plone-enhancement.scss */
+/* line 124, ../scss/_plone-enhancement.scss */
 .criteria dl.multipleSelectionWidget {
   background-color: #FAFAFA;
   border: 1px solid #CCC;
@@ -12024,44 +12029,44 @@ input[type="submit"]:focus {
   margin-right: 10px;
   width: auto;
 }
-/* line 130, ../scss/_plone-enhancement.scss */
+/* line 133, ../scss/_plone-enhancement.scss */
 .criteria dl.multipleSelectionWidget dt {
   border: none;
 }
-/* line 134, ../scss/_plone-enhancement.scss */
+/* line 137, ../scss/_plone-enhancement.scss */
 .criteria input.removecriteria {
   margin-left: 5px;
   padding: 10px;
   color: #fff !important;
 }
 
-/* line 141, ../scss/_plone-enhancement.scss */
+/* line 144, ../scss/_plone-enhancement.scss */
 .sortingField label {
   display: inline;
 }
 
 /*end criteria*/
 /*start tags*/
-/* line 150, ../scss/_plone-enhancement.scss */
+/* line 153, ../scss/_plone-enhancement.scss */
 dl.newTagsSection dd textarea {
   display: inline;
 }
 
 /*end tags*/
 /*start search filter*/
-/* line 159, ../scss/_plone-enhancement.scss */
+/* line 162, ../scss/_plone-enhancement.scss */
 #search-filter input[type="checkbox"],
 #search-filter input[type="radio"],
 #search-filter input[type="checkbox"],
 #search-filter input[type="radio"] {
   margin-bottom: 0;
 }
-/* line 165, ../scss/_plone-enhancement.scss */
+/* line 168, ../scss/_plone-enhancement.scss */
 #search-filter .field {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* line 169, ../scss/_plone-enhancement.scss */
+/* line 172, ../scss/_plone-enhancement.scss */
 #search-filter legend {
   font-size: 14px !important;
   padding-top: 0;
@@ -12070,7 +12075,7 @@ dl.newTagsSection dd textarea {
 
 /*end search filter*/
 /*start login*/
-/* line 178, ../scss/_plone-enhancement.scss */
+/* line 181, ../scss/_plone-enhancement.scss */
 #fieldset-openid-login input, #login-form input {
   display: inline;
   width: auto;
@@ -12078,7 +12083,7 @@ dl.newTagsSection dd textarea {
 
 /*end login*/
 /*edit page - css adjustment for title and description fields*/
-/* line 185, ../scss/_plone-enhancement.scss */
+/* line 188, ../scss/_plone-enhancement.scss */
 #content .field input[type="text"][name$=".title"],
 #archetypes-fieldname-title input,
 #content .field textarea[name$=".description"],
@@ -12088,7 +12093,7 @@ dl.newTagsSection dd textarea {
 }
 
 /*start formhelp*/
-/* line 194, ../scss/_plone-enhancement.scss */
+/* line 197, ../scss/_plone-enhancement.scss */
 .formHelp {
   /*font-size: 12px;*/
   font-weight: normal;
@@ -12098,19 +12103,19 @@ dl.newTagsSection dd textarea {
 /*end formhelp*/
 /*select, input[text] on widescreen*/
 @media only screen and (min-width: 40.063em) {
-  /* line 203, ../scss/_plone-enhancement.scss */
+  /* line 206, ../scss/_plone-enhancement.scss */
   .datetime-field,
   .date-field {
     display: inline !important;
     margin-bottom: 0;
   }
 
-  /* line 208, ../scss/_plone-enhancement.scss */
+  /* line 211, ../scss/_plone-enhancement.scss */
   #calroot {
     box-sizing: content-box;
   }
 
-  /* line 212, ../scss/_plone-enhancement.scss */
+  /* line 215, ../scss/_plone-enhancement.scss */
   #caltitle select {
     font-size: 10px;
     width: auto;
@@ -12119,37 +12124,37 @@ dl.newTagsSection dd textarea {
     height: auto;
   }
 
-  /* line 220, ../scss/_plone-enhancement.scss */
+  /* line 223, ../scss/_plone-enhancement.scss */
   #content select {
     width: auto;
     height: auto;
     vertical-align: middle;
   }
 
-  /* line 225, ../scss/_plone-enhancement.scss */
+  /* line 228, ../scss/_plone-enhancement.scss */
   #content label select {
     width: 100%;
   }
 
-  /* line 229, ../scss/_plone-enhancement.scss */
+  /* line 232, ../scss/_plone-enhancement.scss */
   form#groups_search,
   form#users_search {
     overflow-x: scroll;
   }
-  /* line 232, ../scss/_plone-enhancement.scss */
+  /* line 235, ../scss/_plone-enhancement.scss */
   form#groups_search input.quickSearch,
   form#users_search input.quickSearch {
     width: auto;
     display: inline;
   }
-  /* line 236, ../scss/_plone-enhancement.scss */
+  /* line 239, ../scss/_plone-enhancement.scss */
   form#groups_search input.searchButton,
   form#users_search input.searchButton {
     padding: 8px;
   }
 }
 /*viewlet-below-content*/
-/* line 243, ../scss/_plone-enhancement.scss */
+/* line 246, ../scss/_plone-enhancement.scss */
 #viewlet-below-content:before {
   display: block;
   clear: both;
@@ -12157,11 +12162,11 @@ dl.newTagsSection dd textarea {
 }
 
 /*start comments*/
-/* line 251, ../scss/_plone-enhancement.scss */
+/* line 254, ../scss/_plone-enhancement.scss */
 .discussion .commentImage img {
   height: 32px;
 }
-/* line 254, ../scss/_plone-enhancement.scss */
+/* line 257, ../scss/_plone-enhancement.scss */
 .discussion input[name="form.button.DeleteComment"] {
   padding-top: 0.55556rem;
   padding-right: 1.11111rem;
@@ -12169,27 +12174,27 @@ dl.newTagsSection dd textarea {
   padding-left: 1.11111rem;
   font-size: 0.61111rem;
 }
-/* line 261, ../scss/_plone-enhancement.scss */
+/* line 264, ../scss/_plone-enhancement.scss */
 .discussion .commentBody {
   font-style: italic;
   font-weight: normal;
   color: #76797C;
 }
 
-/* line 269, ../scss/_plone-enhancement.scss */
+/* line 272, ../scss/_plone-enhancement.scss */
 #commenting .formControls input[type="submit"] {
   margin-right: 5px;
 }
 
 /*end comments*/
 /*start custom style for edit bar*/
-/* line 278, ../scss/_plone-enhancement.scss */
+/* line 281, ../scss/_plone-enhancement.scss */
 #edit-bar ul, #edit-bar dl {
   font-size: 12px;
   margin-bottom: 0;
 }
 
-/* line 283, ../scss/_plone-enhancement.scss */
+/* line 286, ../scss/_plone-enhancement.scss */
 #edit-bar:after {
   content: "";
   display: block;
@@ -12197,7 +12202,7 @@ dl.newTagsSection dd textarea {
 }
 
 /* @group LiveSearch */
-/* line 291, ../scss/_plone-enhancement.scss */
+/* line 294, ../scss/_plone-enhancement.scss */
 #LSResult {
   position: absolute;
   right: 0;
@@ -12206,25 +12211,25 @@ dl.newTagsSection dd textarea {
   z-index: 100;
 }
 
-/* line 299, ../scss/_plone-enhancement.scss */
+/* line 302, ../scss/_plone-enhancement.scss */
 #LSResult fieldset {
   padding: 1em 0 0;
   border: 0.1em solid #ccc;
 }
 
-/* line 304, ../scss/_plone-enhancement.scss */
+/* line 307, ../scss/_plone-enhancement.scss */
 #livesearchLegend {
   background-color: #ccc;
   padding: 0.3em;
 }
 
-/* line 309, ../scss/_plone-enhancement.scss */
+/* line 312, ../scss/_plone-enhancement.scss */
 #LSResult .LSDescr {
   font-size: 85%;
   color: #666;
 }
 
-/* line 314, ../scss/_plone-enhancement.scss */
+/* line 317, ../scss/_plone-enhancement.scss */
 .LSRow,
 #LSNothingFound {
   display: block;
@@ -12233,14 +12238,14 @@ dl.newTagsSection dd textarea {
   width: 28em;
 }
 
-/* line 322, ../scss/_plone-enhancement.scss */
+/* line 325, ../scss/_plone-enhancement.scss */
 .LSHighlight {
   background: #ddd;
 }
 
 /* @end */
 /*Faceted Criteria*/
-/* line 330, ../scss/_plone-enhancement.scss */
+/* line 333, ../scss/_plone-enhancement.scss */
 #faceted-edit-widgets-ajax #export_button, #faceted-edit-widgets-ajax #import_button {
   margin-left: 5px;
   padding: 10px;
@@ -12248,35 +12253,35 @@ dl.newTagsSection dd textarea {
 }
 
 /*Search Page*/
-/* line 340, ../scss/_plone-enhancement.scss */
+/* line 343, ../scss/_plone-enhancement.scss */
 form.searchPage #search-field input {
   display: inline;
 }
-/* line 343, ../scss/_plone-enhancement.scss */
+/* line 346, ../scss/_plone-enhancement.scss */
 form.searchPage #search-field input[type="submit"] {
   padding: 0 10px;
   border: 1px solid #ccc;
 }
-/* line 347, ../scss/_plone-enhancement.scss */
+/* line 350, ../scss/_plone-enhancement.scss */
 form.searchPage #search-field input[type="text"] {
   width: 60%;
   padding: 10px;
 }
 
 /*Sharing buttons*/
-/* line 355, ../scss/_plone-enhancement.scss */
+/* line 358, ../scss/_plone-enhancement.scss */
 input#sharing-user-group-search,
 input#sharing-search-button {
   display: inline;
 }
 
-/* line 357, ../scss/_plone-enhancement.scss */
+/* line 360, ../scss/_plone-enhancement.scss */
 input#sharing-search-button {
   padding: 8px 10px;
 }
 
 /*Content Chooser*/
-/* line 362, ../scss/_plone-enhancement.scss */
+/* line 365, ../scss/_plone-enhancement.scss */
 input#contentchooser-content-trees,
 input#contentchooser-content-search-input {
   box-shadow: none;
@@ -12285,41 +12290,41 @@ input#contentchooser-content-search-input {
 }
 
 /*Tile Configure*/
-/* line 370, ../scss/_plone-enhancement.scss */
+/* line 373, ../scss/_plone-enhancement.scss */
 #configure_tile input[type=radio] + label {
   margin: 0;
 }
 
 /*manage portlet*/
-/* line 375, ../scss/_plone-enhancement.scss */
+/* line 378, ../scss/_plone-enhancement.scss */
 div.portletAssignments {
   font-size: inherit !important;
 }
 
-/* line 378, ../scss/_plone-enhancement.scss */
+/* line 381, ../scss/_plone-enhancement.scss */
 div.portletAssignments .managedPortletActions a, div.portletAssignments .managedPortletActions button {
   padding: 0;
 }
 
 /*assign rule*/
-/* line 383, ../scss/_plone-enhancement.scss */
+/* line 386, ../scss/_plone-enhancement.scss */
 input[name='form.button.AddAssignment'] {
   padding: 8px;
   vertical-align: middle;
 }
 
 /*contents query*/
-/* line 389, ../scss/_plone-enhancement.scss */
+/* line 392, ../scss/_plone-enhancement.scss */
 input[name="form.contents.query"] {
   display: inline;
 }
-/* line 391, ../scss/_plone-enhancement.scss */
+/* line 394, ../scss/_plone-enhancement.scss */
 input[name="form.contents.query"] + input[name="form.contents.search"] {
   padding: 8px;
 }
 
 /*subscribers*/
-/* line 398, ../scss/_plone-enhancement.scss */
+/* line 401, ../scss/_plone-enhancement.scss */
 form[action="enl_subscribers_view"] span {
   background: none transparent;
   color: inherit;
@@ -12327,13 +12332,13 @@ form[action="enl_subscribers_view"] span {
   line-height: inherit;
   padding: 0;
 }
-/* line 405, ../scss/_plone-enhancement.scss */
+/* line 408, ../scss/_plone-enhancement.scss */
 form[action="enl_subscribers_view"] input[type="submit"] {
   padding: 8px;
 }
 
 /*field required*/
-/* line 412, ../scss/_plone-enhancement.scss */
+/* line 415, ../scss/_plone-enhancement.scss */
 .field label[for="form.email"],
 .field label[for="form.current_password"],
 .field label[for="form.new_password"],
@@ -12343,41 +12348,41 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 .field label[for="message"] {
   display: inline;
 }
-/* line 421, ../scss/_plone-enhancement.scss */
+/* line 424, ../scss/_plone-enhancement.scss */
 .field .fieldRequired {
   color: #ECECEC !important;
 }
 
 /*portal-column-one under portal-column-content*/
-/* line 428, ../scss/_plone-enhancement.scss */
+/* line 431, ../scss/_plone-enhancement.scss */
 #portal-column-content #portal-column-one {
   display: none;
 }
 
 /*upload image*/
-/* line 433, ../scss/_plone-enhancement.scss */
+/* line 436, ../scss/_plone-enhancement.scss */
 #uploadbutton {
   margin-top: 0 !important;
 }
 
-/* line 434, ../scss/_plone-enhancement.scss */
+/* line 437, ../scss/_plone-enhancement.scss */
 #footer #action-button {
   margin-bottom: -10px !important;
 }
 
 /*search base button*/
-/* line 438, ../scss/_plone-enhancement.scss */
+/* line 441, ../scss/_plone-enhancement.scss */
 #formfield-form-search_base input[id='form.search_base'] {
   display: inline;
 }
-/* line 439, ../scss/_plone-enhancement.scss */
+/* line 442, ../scss/_plone-enhancement.scss */
 #formfield-form-search_base input[name='form.search_base.search'] {
   padding-top: 0.55556rem;
   padding-right: 1.11111rem;
   padding-bottom: 0.61111rem;
   padding-left: 1.11111rem;
 }
-/* line 445, ../scss/_plone-enhancement.scss */
+/* line 448, ../scss/_plone-enhancement.scss */
 #formfield-form-search_base input[name='form.search_base.browse.'],
 #formfield-form-search_base input[name='form.search_base.browse./en'],
 #formfield-form-search_base input[name='form.search_base.browse./es'],
@@ -12390,19 +12395,19 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 }
 
 /*faceted*/
-/* line 458, ../scss/_plone-enhancement.scss */
+/* line 461, ../scss/_plone-enhancement.scss */
 #center-and-left-area #left-area {
   width: 24em;
 }
 
-/* line 461, ../scss/_plone-enhancement.scss */
+/* line 464, ../scss/_plone-enhancement.scss */
 .faceted_letter,
 .faceted-empty-column {
   color: inherit !important;
 }
 
 /*viewlet below content body*/
-/* line 467, ../scss/_plone-enhancement.scss */
+/* line 470, ../scss/_plone-enhancement.scss */
 #viewlet-below-content-body:before {
   content: ' ';
   clear: both;
@@ -12410,21 +12415,21 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 }
 
 /*datagridwidget-table-view*/
-/* line 474, ../scss/_plone-enhancement.scss */
+/* line 477, ../scss/_plone-enhancement.scss */
 .datagridwidget-table-view {
   border-collapse: collapse;
   border: none;
 }
 
 /*byline portrait*/
-/* line 479, ../scss/_plone-enhancement.scss */
+/* line 482, ../scss/_plone-enhancement.scss */
 .byline-portrait {
   height: 24px;
   width: 24px;
 }
 
 /*description*/
-/* line 484, ../scss/_plone-enhancement.scss */
+/* line 487, ../scss/_plone-enhancement.scss */
 #content .documentDescription,
 #content #description {
   color: #666;
@@ -12434,17 +12439,17 @@ form[action="enl_subscribers_view"] input[type="submit"] {
 }
 
 /*internallinkcontainer + radioscrolllist*/
-/* line 494, ../scss/_plone-enhancement.scss */
+/* line 497, ../scss/_plone-enhancement.scss */
 #internallinkcontainer.radioscrolllist .list.item {
   padding: 0.5em;
 }
-/* line 496, ../scss/_plone-enhancement.scss */
+/* line 499, ../scss/_plone-enhancement.scss */
 #internallinkcontainer.radioscrolllist .list.item span,
 #internallinkcontainer.radioscrolllist .list.item a {
   margin-top: -5px;
 }
 
-/* line 505, ../scss/_plone-enhancement.scss */
+/* line 508, ../scss/_plone-enhancement.scss */
 #details-fields.widget.radioscrolllist .field .widget select,
 #details-fields.widget.radioscrolllist .field .widget input {
   margin-bottom: 0 !important;
@@ -13940,4 +13945,37 @@ html:lang(es) .options-header .logo a {
 /* line 1573, ../scss/app.scss */
 html:lang(fr) .options-header .logo a {
   background-image: url(../images/fr-pjp-logo.png);
+}
+
+/*PLone Login*/
+/* line 1582, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper {
+  position: fixed;
+  right: 10px;
+  top: 0;
+  z-index: 2002;
+}
+/* line 1587, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 1594, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools {
+  padding: 5px 10px;
+  background: none #333;
+}
+/* line 1597, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools a {
+  color: #fff;
+}
+/* line 1601, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a {
+  color: #333;
+}
+/* line 1604, ../scss/app.scss */
+.off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a:hover {
+  background: #333;
+  color: White;
 }
