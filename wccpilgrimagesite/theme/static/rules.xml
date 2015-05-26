@@ -32,7 +32,10 @@
     <drop css:content="#portal-footer" />
     <drop css:content="#portlets-footer > div:last-child" />
     
-        <!--navigation-->
+    <!--login-->
+    <before css:theme-children=".off-canvas-wrap" css:content="#portal-personaltools-wrapper" />
+    
+    <!--navigation-->
     <replace css:theme-children=".no-bullet.side-nav-list"
         css:content-children="#portal-globalnav" css:if-not-content=".no-bullet.side-nav-list" />
     <replace css:theme-children=".no-bullet.side-nav-list"
