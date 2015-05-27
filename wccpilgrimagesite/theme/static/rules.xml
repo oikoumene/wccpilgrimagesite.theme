@@ -37,9 +37,11 @@
     
     <!--navigation-->
     <replace css:theme-children=".no-bullet.side-nav-list"
-        css:content-children="#portal-globalnav" css:if-not-content=".no-bullet.side-nav-list" />
-    <replace css:theme-children=".no-bullet.side-nav-list"
-        css:content-children=".no-bullet.side-nav-list"/>
+        css:content-children="#portal-globalnav" css:if-not-content=".no-bullet.side-nav-list, .template-startup_view" />
+    <replace css:theme-children=".no-bullet.side-nav-list">
+        <xsl:copy-of css:select=".no-bullet.side-nav-list" />
+        <xsl:copy-of css:select="#portal-languageselector > *" />
+    </replace>
     
     <!--Francis-->
     <rules if-content="/html[@lang='fr']">
