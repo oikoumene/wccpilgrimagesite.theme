@@ -13697,56 +13697,60 @@ ul.resource-list-type .doc-holder {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 1321, ../scss/app.scss */
+/* line 1317, ../scss/app.scss */
+.soc-med-link a .sml-circle i {
+  line-height: 30px;
+}
+/* line 1324, ../scss/app.scss */
 .green-page .soc-med-link {
   border-color: #74be44;
 }
-/* line 1325, ../scss/app.scss */
+/* line 1328, ../scss/app.scss */
 .yellow-page .soc-med-link {
   border-color: #e8c629;
 }
 
-/* line 1331, ../scss/app.scss */
+/* line 1334, ../scss/app.scss */
 .page-footer {
   background-color: #333333;
   padding-bottom: 0;
 }
-/* line 1336, ../scss/app.scss */
+/* line 1339, ../scss/app.scss */
 .page-footer h1, .page-footer .welcome-page h2, .welcome-page .page-footer h2, .page-footer h2, .page-footer h3, .page-footer h4, .page-footer ul.resource-list h3, ul.resource-list .page-footer h3, .page-footer ul.resource-list-type h3, ul.resource-list-type .page-footer h3, .page-footer h5, .page-footer ul.comments-list li .cl-details h4, ul.comments-list li .cl-details .page-footer h4, .page-footer ul.comments-list li .cl-details ul.resource-list h3, ul.comments-list li .cl-details ul.resource-list .page-footer h3, .page-footer ul.resource-list ul.comments-list li .cl-details h3, ul.resource-list ul.comments-list li .cl-details .page-footer h3, .page-footer ul.comments-list li .cl-details ul.resource-list-type h3, ul.comments-list li .cl-details ul.resource-list-type .page-footer h3, .page-footer ul.resource-list-type ul.comments-list li .cl-details h3, ul.resource-list-type ul.comments-list li .cl-details .page-footer h3, .page-footer h5, .page-footer ul.comments-list li .cl-details h4, ul.comments-list li .cl-details .page-footer h4, .page-footer ul.comments-list li .cl-details ul.resource-list h3, ul.comments-list li .cl-details ul.resource-list .page-footer h3, .page-footer ul.resource-list ul.comments-list li .cl-details h3, ul.resource-list ul.comments-list li .cl-details .page-footer h3, .page-footer ul.comments-list li .cl-details ul.resource-list-type h3, ul.comments-list li .cl-details ul.resource-list-type .page-footer h3, .page-footer ul.resource-list-type ul.comments-list li .cl-details h3, ul.resource-list-type ul.comments-list li .cl-details .page-footer h3, .page-footer p, .page-footer li, .page-footer a {
   color: #ffffff;
 }
-/* line 1344, ../scss/app.scss */
+/* line 1347, ../scss/app.scss */
 .page-footer p, .page-footer li {
   font-size: 10px;
 }
-/* line 1348, ../scss/app.scss */
+/* line 1351, ../scss/app.scss */
 .page-footer li {
   margin-bottom: 10px;
 }
-/* line 1352, ../scss/app.scss */
+/* line 1355, ../scss/app.scss */
 .page-footer .initiative {
   vertical-align: bottom;
   font-weight: 600;
   font-size: 12px;
   margin-bottom: 30px;
 }
-/* line 1358, ../scss/app.scss */
+/* line 1361, ../scss/app.scss */
 .page-footer .initiative img {
   width: 50px;
   height: auto;
 }
-/* line 1364, ../scss/app.scss */
+/* line 1367, ../scss/app.scss */
 .page-footer .copyright {
   font-size: 10px;
 }
 
-/* line 1374, ../scss/app.scss */
+/* line 1377, ../scss/app.scss */
 .nav-notice {
   position: absolute;
   top: 60px;
   left: 60px;
 }
-/* line 1379, ../scss/app.scss */
+/* line 1382, ../scss/app.scss */
 .nav-notice .notice-inner {
   padding: 20px;
   background-color: #333333;
@@ -13754,7 +13758,7 @@ ul.resource-list-type .doc-holder {
   font-weight: 800;
   position: relative;
 }
-/* line 1386, ../scss/app.scss */
+/* line 1389, ../scss/app.scss */
 .nav-notice .notice-inner:before {
   content: "";
   width: 0;
@@ -13767,18 +13771,18 @@ ul.resource-list-type .doc-holder {
   position: absolute;
   margin-top: -10px;
 }
-/* line 1400, ../scss/app.scss */
+/* line 1403, ../scss/app.scss */
 .nav-notice.nn-hidden {
   display: none;
 }
 
-/* line 1405, ../scss/app.scss */
+/* line 1408, ../scss/app.scss */
 .socmed-notice {
   position: absolute;
   top: 172px;
   left: 60px;
 }
-/* line 1410, ../scss/app.scss */
+/* line 1413, ../scss/app.scss */
 .socmed-notice .notice-inner {
   padding: 20px;
   background-color: #333333;
@@ -13786,7 +13790,7 @@ ul.resource-list-type .doc-holder {
   font-weight: 800;
   position: relative;
 }
-/* line 1417, ../scss/app.scss */
+/* line 1420, ../scss/app.scss */
 .socmed-notice .notice-inner:before {
   content: "";
   width: 0;
@@ -13799,17 +13803,17 @@ ul.resource-list-type .doc-holder {
   position: absolute;
   margin-top: -10px;
 }
-/* line 1431, ../scss/app.scss */
+/* line 1434, ../scss/app.scss */
 .socmed-notice.nn-hidden {
   display: none;
 }
 
-/* line 1436, ../scss/app.scss */
+/* line 1439, ../scss/app.scss */
 .small-slider-cover {
   display: none;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 1436, ../scss/app.scss */
+  /* line 1439, ../scss/app.scss */
   .small-slider-cover {
     display: block;
     height: 224px;
@@ -13822,13 +13826,13 @@ ul.resource-list-type .doc-holder {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  /* line 1448, ../scss/app.scss */
+  /* line 1451, ../scss/app.scss */
   .small-slider-cover.open-cover {
     margin-top: 0;
   }
 }
 
-/* line 1454, ../scss/app.scss */
+/* line 1457, ../scss/app.scss */
 .media-title {
   font-size: 16px;
   color: #ffffff;
@@ -13836,47 +13840,47 @@ ul.resource-list-type .doc-holder {
   text-align: left;
   padding: 5px 10px;
 }
-/* line 1461, ../scss/app.scss */
+/* line 1464, ../scss/app.scss */
 .media-title i {
   font-size: 18px;
   margin-right: 10px;
 }
 
-/* line 1467, ../scss/app.scss */
+/* line 1470, ../scss/app.scss */
 .fixed {
   z-index: 2001;
 }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 1472, ../scss/app.scss */
+  /* line 1475, ../scss/app.scss */
   .row {
     min-width: 1000px;
   }
 }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 1478, ../scss/app.scss */
+  /* line 1481, ../scss/app.scss */
   .i-height {
     height: 100%;
   }
 }
 
-/* line 1488, ../scss/app.scss */
+/* line 1491, ../scss/app.scss */
 .data-warning-active {
   padding: 0.3125rem 0;
 }
 
-/* line 1492, ../scss/app.scss */
+/* line 1495, ../scss/app.scss */
 .data-success-message-active {
   padding: 1.25rem 0;
 }
 
-/* line 1496, ../scss/app.scss */
+/* line 1499, ../scss/app.scss */
 .instagram {
   width: 300px;
 }
 
-/* line 1500, ../scss/app.scss */
+/* line 1503, ../scss/app.scss */
 .instagram-thumb {
   display: block;
   width: 91px;
@@ -13884,97 +13888,97 @@ ul.resource-list-type .doc-holder {
   margin: 4px;
 }
 
-/* line 1507, ../scss/app.scss */
+/* line 1510, ../scss/app.scss */
 .instagram-thumb img {
   width: 91px;
 }
 
-/* line 1511, ../scss/app.scss */
+/* line 1514, ../scss/app.scss */
 .instagram-grid-separator {
   clear: both;
 }
 
-/* line 1515, ../scss/app.scss */
+/* line 1518, ../scss/app.scss */
 iframe, .pluginLikeboxStream {
   width: 100% !important;
 }
 
 /*plone classes*/
-/* line 1520, ../scss/app.scss */
+/* line 1523, ../scss/app.scss */
 #content {
   background-color: #ffffff;
 }
 
 /*footer*/
-/* line 1525, ../scss/app.scss */
+/* line 1528, ../scss/app.scss */
 #portlets-footer .portlet {
   text-align: left;
   background: none transparent;
 }
-/* line 1528, ../scss/app.scss */
+/* line 1531, ../scss/app.scss */
 #portlets-footer .portlet .portletHeader {
   color: #fff;
 }
 
-/* line 1535, ../scss/app.scss */
+/* line 1538, ../scss/app.scss */
 #portal-footer .medium-text-left p.copyright {
   margin-bottom: 0;
 }
-/* line 1539, ../scss/app.scss */
+/* line 1542, ../scss/app.scss */
 #portal-footer .medium-text-left ul li {
   display: inline;
 }
 
 /*instagram*/
-/* line 1547, ../scss/app.scss */
+/* line 1550, ../scss/app.scss */
 .instagram {
   display: inline-block;
 }
 
 /*logo*/
-/* line 1555, ../scss/app.scss */
+/* line 1558, ../scss/app.scss */
 html:lang(de) .options-header .logo a {
   background-image: url(../images/de-pjp-logo.png);
 }
 
-/* line 1564, ../scss/app.scss */
+/* line 1567, ../scss/app.scss */
 html:lang(es) .options-header .logo a {
   background-image: url(../images/es-pjp-logo.png);
 }
 
-/* line 1573, ../scss/app.scss */
+/* line 1576, ../scss/app.scss */
 html:lang(fr) .options-header .logo a {
   background-image: url(../images/fr-pjp-logo.png);
 }
 
 /*PLone Login*/
-/* line 1582, ../scss/app.scss */
+/* line 1585, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper {
   position: fixed;
   right: 10px;
   top: 0;
   z-index: 2002;
 }
-/* line 1587, ../scss/app.scss */
+/* line 1590, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 1594, ../scss/app.scss */
+/* line 1597, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools {
   padding: 5px 10px;
   background: none #333;
 }
-/* line 1597, ../scss/app.scss */
+/* line 1600, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools a {
   color: #fff;
 }
-/* line 1601, ../scss/app.scss */
+/* line 1604, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a {
   color: #333;
 }
-/* line 1604, ../scss/app.scss */
+/* line 1607, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a:hover {
   background: #333;
   color: White;
