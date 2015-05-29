@@ -109,8 +109,8 @@
     <replace css:theme-children="#content" css:content-children="#content" />
     
     <!--footer content-->
-    <replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />
-    <after css:theme-children=".page-footer" css:content=".footerportlet" />
+    <!--<replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />-->
+    <replace css:theme-children=".page-footer" css:content=".footerportlet" />
     
     <!--landing template-->
     <rules css:if-content=".template-startup_view">
