@@ -13905,80 +13905,81 @@ iframe, .pluginLikeboxStream {
 
 /*plone classes*/
 /* line 1523, ../scss/app.scss */
-#content {
+#content,
+.custom-template-wrapper {
   background-color: #ffffff;
 }
 
 /*footer*/
-/* line 1528, ../scss/app.scss */
+/* line 1529, ../scss/app.scss */
 #portlets-footer .portlet {
   text-align: left;
   background: none transparent;
 }
-/* line 1531, ../scss/app.scss */
+/* line 1532, ../scss/app.scss */
 #portlets-footer .portlet .portletHeader {
   color: #fff;
 }
 
-/* line 1538, ../scss/app.scss */
+/* line 1539, ../scss/app.scss */
 #portal-footer .medium-text-left p.copyright {
   margin-bottom: 0;
 }
-/* line 1542, ../scss/app.scss */
+/* line 1543, ../scss/app.scss */
 #portal-footer .medium-text-left ul li {
   display: inline;
 }
 
 /*instagram*/
-/* line 1550, ../scss/app.scss */
+/* line 1551, ../scss/app.scss */
 .instagram {
   display: inline-block;
 }
 
 /*logo*/
-/* line 1558, ../scss/app.scss */
+/* line 1559, ../scss/app.scss */
 html:lang(de) .options-header .logo a {
   background-image: url(../images/de-pjp-logo.png);
 }
 
-/* line 1567, ../scss/app.scss */
+/* line 1568, ../scss/app.scss */
 html:lang(es) .options-header .logo a {
   background-image: url(../images/es-pjp-logo.png);
 }
 
-/* line 1576, ../scss/app.scss */
+/* line 1577, ../scss/app.scss */
 html:lang(fr) .options-header .logo a {
   background-image: url(../images/fr-pjp-logo.png);
 }
 
 /*PLone Login*/
-/* line 1585, ../scss/app.scss */
+/* line 1586, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper {
   position: fixed;
   right: 10px;
   top: 0;
   z-index: 2002;
 }
-/* line 1590, ../scss/app.scss */
+/* line 1591, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 1597, ../scss/app.scss */
+/* line 1598, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools {
   padding: 5px 10px;
   background: none #333;
 }
-/* line 1600, ../scss/app.scss */
+/* line 1601, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools a {
   color: #fff;
 }
-/* line 1604, ../scss/app.scss */
+/* line 1605, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a {
   color: #333;
 }
-/* line 1607, ../scss/app.scss */
+/* line 1608, ../scss/app.scss */
 .off-canvas-wrap #portal-personaltools-wrapper #portal-personaltools dd a:hover {
   background: #333;
   color: White;

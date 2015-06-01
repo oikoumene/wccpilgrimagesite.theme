@@ -89,8 +89,23 @@
         <div class="nav-notice nn-hidden"><div class="notice-inner">Click here to navigate</div></div>
         <div class="socmed-notice nn-hidden"><div class="notice-inner">Share</div></div>
     </after>
+    
+    <rules css:if-content=".template-view.portaltype-wccpilgrimagesite-app-pilgrimagesteps, .template-view.portaltype-wccpilgrimagesite-app-resources, .template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
+        <drop css:content=".content-header" />
+        <strip css:content=".animated.fadeIn" />
         
-    <!--main content-->
+        <copy attributes="class" css:content=".animated.fadeIn" css:theme=".green-page.animated.fadeIn" />
+        <before css:theme-children=".custom-template-wrapper">
+            <div class="row" style="padding-top: 20px;padding-bottom: 0">
+                <xsl:copy-of css:select="#edit-bar" />
+            </div>
+        </before>
+        <replace css:theme-children=".content-header" css:content-children=".content-header" />
+        <replace css:theme-children=".custom-template-wrapper" css:content-children="#content" />
+        <theme href="content-1.html"/>
+    </rules>
+        
+    <!--edit-bar-->
     <replace css:theme-children="#content" css:if-not-content=".template-startup_view, .template-view.portaltype-wccpilgrimagesite-app-pilgrimageapp, .template-view.portaltype-wccpilgrimagesite-app-pilgrimagesteps, .template-view.portaltype-wccpilgrimagesite-app-resources, .template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
         <!--header-->
         <header class="options-header white-bg">
@@ -106,6 +121,8 @@
             <xsl:copy-of css:select="#content > *" />
         </div>
     </replace>
+    
+    <!--main content-->
     <replace css:theme-children="#content" css:content-children="#content" />
     
     <!--footer content-->
