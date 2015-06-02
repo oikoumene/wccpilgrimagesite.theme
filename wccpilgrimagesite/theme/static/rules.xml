@@ -90,7 +90,7 @@
         <div class="socmed-notice nn-hidden"><div class="notice-inner">Share</div></div>
     </after>
     
-    <rules css:if-content=".template-view.portaltype-wccpilgrimagesite-app-pilgrimagesteps, .template-view.portaltype-wccpilgrimagesite-app-resources, .template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
+    <rules css:if-content=".template-view.portaltype-wccpilgrimagesite-app-resourceupload, .template-view.portaltype-wccpilgrimagesite-app-staticdocument, .template-view.portaltype-wccpilgrimagesite-app-sound, .template-view.portaltype-wccpilgrimagesite-app-video">
         <drop css:content=".content-header" />
         <strip css:content=".animated.fadeIn" />
         
