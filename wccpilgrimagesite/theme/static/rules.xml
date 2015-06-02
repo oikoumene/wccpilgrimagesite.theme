@@ -95,7 +95,7 @@
         <strip css:content=".animated.fadeIn" />
         
         <copy attributes="class" css:content=".animated.fadeIn" css:theme=".green-page.animated.fadeIn" />
-        <before css:theme-children=".custom-template-wrapper">
+        <before css:theme-children=".custom-template-wrapper" css:if-not=".userrole-anonymous">
             <div class="row" style="padding-top: 20px;padding-bottom: 0">
                 <xsl:copy-of css:select="#edit-bar" />
             </div>
