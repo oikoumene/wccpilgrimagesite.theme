@@ -144,7 +144,7 @@
     
     <!--footer content-->
     <!--<replace css:theme-children=".page-footer" css:content="#portal-footer-wrapper" />-->
-    <replace css:theme-children=".page-footer" css:content=".page-footer" />
+    <replace css:theme-children=".page-footer" css:content-children=".page-footer" />
     
     <!--landing template-->
     <rules css:if-content=".template-startup_view">
