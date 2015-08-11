@@ -46,6 +46,7 @@
     <!--Francis-->
     <rules if-content="/html[@lang='fr']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/fr-pjp-text-logo.png" alt="pèlerinage de justice et de paix" /></replace>
+        <replace css:content-children="#comments-head">Vos commentaires</replace>
         <replace css:content-children=".see-more">Plus</replace>
         <replace css:content-children=".add-a-comment">Ajouter un commentaire</replace>
         <replace css:content-children=".back-to-top">Haut de la page</replace>
@@ -60,6 +61,7 @@
     <!--German-->
     <rules if-content="/html[@lang='de']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/de-pjp-text-logo.png" alt="Pilgerweg der Gerechtigkeit und des Friedens" /></replace>
+        <replace css:content-children="#comments-head">Ihre Kommentare</replace>
         <replace css:content-children=".see-more">Mehr anzeigen</replace>
         <replace css:content-children=".add-a-comment">Kommentar hinzufügen</replace>
         <replace css:content-children=".back-to-top">Zum Seitenanfang</replace>
@@ -74,6 +76,7 @@
     <!--Spanish-->
     <rules if-content="/html[@lang='es']">
         <replace css:theme=".text-logo"><img class="text-logo" src="++theme++wccpilgrimagesite.theme/images/es-pjp-text-logo.png" alt="peregrinación de justicia y paz" /></replace>
+        <replace css:content-children="#comments-head">Sus comentarios</replace>
         <replace css:content-children=".see-more">Ver todo</replace>
         <replace css:content-children=".add-a-comment">Añadir un comentario</replace>
         <replace css:content-children=".back-to-top">Volver arriba</replace>
